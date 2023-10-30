@@ -1,329 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
     />
-    <link
-      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
-      rel="stylesheet"
-    />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Poppins:wght@200&display=swap"
-      rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Poppins:wght@200&display=swap"
+        rel="stylesheet"
     />
 
     <!--CSS-->
     <link rel="stylesheet" href="style.css" />
 
-    <title>Bahasa Indonesia</title>
-  </head>
-  <body class="bd-example-cssgrid">
-    <!-- loading -->
-    <div class="loader"></div>
+    <!--Javascript-->
+    <script src="script.js" defer></script>
 
+    <title>Bahasa Indonesia</title>
+</head>
+<body>
     <!-- Navbar Start -->
-    <nav class="header navbar" id="header">
-      <div class="icon">
+    <nav class="header navbar">
+        <div class="icon">
         <img src="assets/[Navbar] Space Rocket.svg" alt="Logo" height="65px" />
         <a href="">Kelompok Nasa</a>
-      </div>
-      <div class="link nav" id="myNavbar">
+        </div>
+        <div class="link nav">
         <a
-          href="#home"
-          class="nav-link active"
-          aria-controls="home"
-          aria-selected="true"
-          >Beranda</a
+            href="#"
+            class="active nav-link"
+            aria-controls="home"
+            aria-selected="true"
+            >Beranda</a
         >
-        <div class="dropdown link">
-          <a
+        <div class="dropdown">
+            <a
             class="nav-link dropdown-toggle"
             href="#"
             role="button"
             id="dropdownMenuLink"
             data-bs-toggle="dropdown"
             aria-expanded="false"
-          >
+            >
             KONTENT
-          </a>
+            </a>
 
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <li>
-              <a class="dropdown-item" href="#penjelasan"
+                <a class="dropdown-item" href="#penjelasan"
                 >Penjelasan & Tujuan</a
-              >
+                >
             </li>
             <li>
-              <a class="dropdown-item" href="#pendahuluan">Pendahuluan</a>
+                <a class="dropdown-item" href="#pendahuluan">Pendahuluan</a>
             </li>
             <li>
-              <a class="dropdown-item" href="#analisis">Analisis</a>
+                <a class="dropdown-item" href="#analisis">Analisis</a>
             </li>
             <li>
-              <a class="dropdown-item" href="#contoh">Contoh</a>
+                <a class="dropdown-item" href="#contoh">Contoh</a>
             </li>
-          </ul>
+            </ul>
         </div>
         <a href="#" class="nav-link">Profil</a>
-
         <!-- <a href="" class="nav-link contact">contact</a> -->
-      </div>
+        </div>
     </nav>
     <!-- Navbar End -->
 
     <!-- Beranda Start -->
     <section class="home" id="home">
-      <div class="content">
+        <div class="content">
         <h2>Eksposisi</h2>
         <h2>Perbandingan</h2>
         <h3>Bahasa Indonesia</h3>
-      </div>
+        </div>
     </section>
     <!-- Beranda End -->
 
-    <!-- Penjelasan Start -->
+    <!-- Penjelasan Start -->x
     <section class="konten penjelasan" id="penjelasan">
-      <div class="container">
-        <ul class="nav nav-pills center" id="pills-tab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link active primary one"
-              id="pills-home-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#pills-home"
-              type="button"
-              role="tab"
-              aria-controls="pills-home"
-              aria-selected="true"
-            >
-              Penjelasan
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link primary two"
-              id="pills-profile-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#pills-profile"
-              type="button"
-              role="tab"
-              aria-controls="pills-profile"
-              aria-selected="false"
-            >
-              Tujuan
-            </button>
-          </li>
-        </ul>
-        <div class="tab-content isi" id="pills-tabContent">
-          <div
-            class="tab-pane fade show active text"
-            id="pills-home"
-            role="tabpanel"
-            aria-labelledby="pills-home-tab"
-            tabindex="0"
-          >
-            <div class="pendahuluan-wrapper wrapper one">
-              <p>
-                Teks yang berisi ide atau gagasan utamanya dipaparkan dengan
-                cara membandingkan suatu hal dengan yang lain.
-                <b>(Microsoft Edge)</b>
-                <br /><br />
-                Suatu teks yang berisi mengenai penjelasan ide pada sebuah
-                kalimat utama dengan melakukan perbandingan dengan hal yang
-                lainnya.
-                <b>(Youtube)</b>
-                <br /><br />
-                Suatu jenis teks yang digunakan untuk membandingkan dan
-                kontraskan dua atau lebih subjek, gagasan, konsep, atau entitas.
-                <b>(CGPT)</b>
-              </p>
-              <img src="assets/[Penjelasan] Icon.svg" alt="" />
+        <div class="container">
+            <ul class="nav nav-pills mb-3 center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button
+                    class="nav-link active primary"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                >
+                    Penjelasan
+                </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button
+                    class="nav-link primary"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                >
+                    Tujuan
+                </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+                tabindex="0"
+                >
+                <p>
+                    Teks yang berisi ide atau gagasan utamanya dipaparkan dengan cara
+                    membandingkan suatu hal dengan yang lain. <b>(Microsoft Edge)</b>
+                </p>
+                <p>
+                    Suatu teks yang berisi mengenai penjelasan ide pada sebuah kalimat
+                    utama dengan melakukan perbandingan dengan hal yang lainnya.
+                    <b>(Youtube)</b>
+                </p>
+                <p>
+                    Suatu jenis teks yang digunakan untuk membandingkan dan kontraskan
+                    dua atau lebih subjek, gagasan, konsep, atau entitas.
+                    <b>(CGPT)</b>
+                </p>
+
+                <img src="assets/[Penjelasan] Icon.svg" alt="" />
+                </div>
+                <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+                tabindex="0"
+                >
+                <p>
+                    Tujuan utamanya yaitu untuk menyajikan perbedaan dan persamaan
+                    antara subjek yang dibandingkan sehingga membantu pembaca atau
+                    pendengar memahami karakteristik masing-masing atau membuat
+                    poin-poin penting menjadi lebih jelas.
+                </p>
+                <img src="assets/[Tujuan] Icon.svg" alt="" />
+                </div>
             </div>
-          </div>
-          <div
-            class="tab-pane fade text"
-            id="pills-profile"
-            role="tabpanel"
-            aria-labelledby="pills-profile-tab"
-            tabindex="0"
-          >
-            <div class="analisis-wrapper wrapper two">
-              <img src="assets/[Tujuan] Icon.svg" alt="" />
-              <p>
-                Tujuan utamanya yaitu untuk menyajikan perbedaan dan persamaan
-                antara subjek yang dibandingkan sehingga membantu pembaca atau
-                pendengar memahami karakteristik masing-masing atau membuat
-                poin-poin penting menjadi lebih jelas.
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
     <!-- Penjelasan End -->
 
     <!-- pendahuluan start -->
     <section class="sesi__pendahuluan" id="pendahuluan">
-      <div class="pendahuluan-wrapper">
+        <div class="pendahuluan-wrapper">
         <h2 id="pendahuluan-title">Pendahuluan</h2>
         <p class="pendahuluan-content">
-          Teks eksposisi perbandingan dimulai dengan pendahuluan yang memberikan
-          gambaran umum tentang topik yang akan dibandingkan. Ini mencakup
-          pernyataan tentang pentingnya perbandingan tersebut.
+            Teks eksposisi perbandingan dimulai dengan pendahuluan yang memberikan
+            gambaran umum tentang topik yang akan dibandingkan. Ini mencakup
+            pernyataan tentang pentingnya perbandingan tersebut.
         </p>
-      </div>
-      <div class="identifikasi-wrapper">
+        </div>
+        <div class="identifikasi-wrapper">
         <h2 id="identifikasi-title">Identifikasi Objek yang Dibandingkan</h2>
         <p class="identifikasi-content">
-          Setelah pendahuluan, teks menyebutkan objek atau subjek yang akan
-          dibandingkan. Misalnya, jika Anda membandingkan dua smartphone, maka
-          smartphone-smartphone itu akan diidentifikasi di sini.
+            Setelah pendahuluan, teks menyebutkan objek atau subjek yang akan
+            dibandingkan. Misalnya, jika Anda membandingkan dua smartphone, maka
+            smartphone-smartphone itu akan diidentifikasi di sini.
         </p>
-      </div>
+        </div>
     </section>
     <!-- pendahuluan end -->
 
     <!-- Analisis Start -->
     <section class="sesi__analisis" id="analisis">
-      <div class="analisis-pemahaman">
+        <div class="analisis-pemahaman">
         <h1 id="analisis-title">Analisis dan Pemahaman</h1>
         <p class="analisis-content">
-          Setelah menyajikan persamaan dan perbedaan, teks akan memberikan
-          analisi yang lebih mendalam tentang bagaimana persamaan dan perbedaan
-          ini memengaruhi penggunaan atau pemahaman objek yang dibandingkan. Ini
-          membantu pembaca untuk mengerti lebih baik manfaat atau kekurangan
-          masing-masing objek.
+            Setelah menyajikan persamaan dan perbedaan, teks akan memberikan
+            analisi yang lebih mendalam tentang bagaimana persamaan dan perbedaan
+            ini memengaruhi penggunaan atau pemahaman objek yang dibandingkan. Ini
+            membantu pembaca untuk mengerti lebih baik manfaat atau kekurangan
+            masing-masing objek.
         </p>
-      </div>
-      <div class="bahasa-gaya_penulisan">
+        </div>
+        <div class="bahasa-gaya_penulisan">
         <h1 id="bahasa-title">Bahasa dan Gaya Penulisan</h1>
         <p class="bahasa-content">
-          Teks eksposisi perbandingan biasanya menggunakan bahasa yang jelas,
-          objektif, dan netral. Gaya penulisannya fokus pada informasi dan
-          analisis daripada opini pribadi. Teks eksposisi perbandingan digunakan
-          dalam berbagai konteks, seperti dalam penulisan akademis, ulasan
-          produk, perbandingan konsep, dan banyak lagi. tujuannya adalah
-          membantu pembaca untuk membuat keputusan yang lebih informasional atau
-          memahami perbedaan antara objek atau konsep yang dibandingkan.
+            Teks eksposisi perbandingan biasanya menggunakan bahasa yang jelas,
+            objektif, dan netral. Gaya penulisannya fokus pada informasi dan
+            analisis daripada opini pribadi. Teks eksposisi perbandingan digunakan
+            dalam berbagai konteks, seperti dalam penulisan akademis, ulasan
+            produk, perbandingan konsep, dan banyak lagi. tujuannya adalah
+            membantu pembaca untuk membuat keputusan yang lebih informasional atau
+            memahami perbedaan antara objek atau konsep yang dibandingkan.
         </p>
-      </div>
+        </div>
     </section>
     <!-- Analisis End -->
 
     <!-- Contoh Start -->
     <section class="sesi__contoh" id="contoh">
-      <h1 id="contoh-title">Contoh</h1>
-      <div class="kolom">
-        <div class="grid">
-          <div class="g-col-6 col">
-            <font style="vertical-align: inherit"
-              ><font style="vertical-align: inherit">
-                <h3>Transportasi Umum</h3>
-                <p>
-                  Transportasi umum seperti bus, kereta, atau trem menawarkan
-                  beberapa manfaat yang signifikan. Pertama, ini umumnya lebih
-                  ramah lingkungan karena lebih banyak orang dapat berbagi satu
-                  kendaraan, mengurangi emisi karbon. Selain itu, penggunaan
-                  transportasi umum dapat mengurangi kemacetan lalu lintas di
-                  perkotaan. Biaya juga lebih rendah daripada memiliki mobil
-                  pribadi, karena Anda tidak perlu membeli bahan bakar, merawat
-                  kendaraan, atau membayar parkir. Selain itu, transportasi umum
-                  bisa lebih aman karena dikemudikan oleh profesional yang
-                  terlatih.
-                </p>
-              </font></font
-            >
-          </div>
-          <div class="g-col-6 col">
-            <font style="vertical-align: inherit"
-              ><font style="vertical-align: inherit">
-                <h3>Kelemahan Transportasi Umum</h3>
-                <p>
-                  Meskipun ada banyak manfaat, transportasi umum juga memiliki
-                  kekurangan. Jadwal bisa tidak fleksibel, dan Anda harus
-                  mengikuti jadwal yang ada. Terkadang, kendaraan mungkin
-                  terlalu penuh atau tidak nyaman. Ini juga mungkin memerlukan
-                  waktu lebih lama untuk mencapai tujuan akhir karena perlu
-                  berhenti di berbagai tempat.
-                </p>
-              </font></font
-            >
-          </div>
-          <div class="g-col-6 col">
-            <font style="vertical-align: inherit"
-              ><font style="vertical-align: inherit">
-                <h3>Mobil pribadi</h3>
-                <p>
-                  Mobil pribadi memberikan tingkat kenyamanan dan fleksibilitas
-                  yang tinggi. Anda dapat pergi kapan pun Anda mau dan langsung
-                  menuju ke tujuan tanpa perlu berhenti di berbagai tempat. Ini
-                  juga memungkinkan Anda untuk membawa barang lebih banyak dan
-                  memberikan privasi yang lebih besar.
-                </p>
-              </font></font
-            >
-          </div>
-          <div class="g-col-6 col">
-            <font style="vertical-align: inherit"
-              ><font style="vertical-align: inherit">
-                <h3>Kelemahan Mobil Pribadi</h3>
-                <p>
-                  Mobil pribadi juga memiliki kekurangan. Biaya kepemilikan
-                  mobil mencakup bahan bakar, perawatan, asuransi, dan parkir.
-                  Penggunaan mobil pribadi juga berkontribusi pada kemacetan
-                  lalu lintas dan emisi karbon, yang merugikan lingkungan.
-                  Terkadang, mencari tempat parkir bisa menjadi masalah,
-                  terutama di perkotaan. Selain itu, risiko kecelakaan jalan
-                  raya selalu ada.
-                </p>
-              </font>
-            </font>
-          </div>
+        <img src="assets/[Contoh] Dekorasi Gantungan.svg" id="gantungan" />
+        <h1 id="contoh-title">Contoh</h1>
+        <div class="transportasi-umum">
+        <h3 id="transportasi-title">Transportasi Umum</h3>
+        <p class="transportasi-konten"></p>
         </div>
-      </div>
+        <div class="kelemahan-tu">
+        <h3 id="kelemahan-tu-title">Kelemahan Transportasi Umum</h3>
+        <p class="kelamahan-tu-konten"></p>
+        </div>
+        <div class="mobil-pribadi">
+        <h3 id="`mobil-pribadi-title">Mobil Pribadi</h3>
+        <p class="mobil-pribadi"></p>
+        </div>
+        <div class="kelemahan-mp">
+        <h3 id="kelemahan-mp-title">Kelemahan Mobil Pribadi</h3>
+        <p class="kelemahan-mp-konten"></p>
+        </div>
     </section>
     <!-- Contoh End -->
 
     <!-- Profil Start -->
     <section class="sesi__profil">
-      <h1 id="profil-title">Profil</h1>
-      <div class="profil-wrapper">
-        <div class="cards card-1">
-          <img src="" alt="" />
-          <h2 class="cards-title">
-            Lorem <span class="person-instagram">${0}</span>
-          </h2>
-          <p class="person-information">X RPL 3 / 2</p>
+
+        <h1 id="profil-title">Profil</h1>
+        <div class="card-wrapper">
+            <div class="inner-scroller">
+
+                <div class="cards card-1">
+                    <div class="img"></div>
+                    <h2 class="cards-title">
+                        Ryan <br> <a href="https://www.instagram.com/itzactuallyryan_/" target="_blank" class="person-instagram">(@itzactuallyryan_)</a>
+                    </h2>
+                    <p class="person-information">X RPL 3 / 2</p>
+                </div>
+                <div class="cards card-2">
+                    <div class="img"></div>
+                    <h2 class="cards-title">
+                        Joshan <br> <a href="https://www.instagram.com/joshan.arya/" target="_blank" class="person-instagram">(@joshan.arya)</a>
+                    </h2>
+                    <p class="person-information">X RPL 3 / 11</p>
+                </div>
+                <div class="cards card-3">
+                    <div class="img"></div>
+                    <h2 class="cards-title">
+                        Arya <br> <a href="https://www.instagram.com/aryandr31_/" target="_blank" class="person-instagram">(@aryandr31_)</a>
+                    </h2>
+                    <p class="person-information">X RPL 3 / 18</p>
+                </div>
+                <div class="cards card-4">
+                    <div class="img"></div>
+                    <h2 class="cards-title">
+                        Wulan <br> <a href="https://www.instagram.com/woed54n/" target="_blank" class="person-instagram">(@woed54n)</a>
+                    </h2>
+                    <p class="person-information">X RPL 3 / 28</p>
+                </div>
+                <div class="cards card-5">
+                    <div class="img"></div>
+                    <h2 class="cards-title">
+                        Yoga <br> <a href="https://www.instagram.com/yogaarx/" target="_blank" class="person-instagram">(@yogaarx)</a>
+                    </h2>
+                    <p class="person-information">X RPL 3 / 31</p>
+                </div>
+                <div class="cards card-6">
+                    <div class="img"></div>
+                    <h2 class="cards-title">
+                        Vincentius <br> <a href="https://www.instagram.com/vian9029/" target="_blank" class="person-instagram">(@vian9029)</a>
+                    </h2>
+                    <p class="person-information">X RPL 3 / 34</p>
+                </div>
+                
+            </div>
         </div>
-      </div>
+
     </section>
     <!-- Profil End -->
 
-    <!-- Javascript -->
-    <script src="script.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
     ></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
@@ -331,5 +308,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
 </html>
