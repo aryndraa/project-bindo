@@ -11,11 +11,13 @@ document.onreadystatechange = function () {
 
 window.addEventListener("scroll", function () {
   var navbar = document.getElementById("header");
+  var homeNavbar = document.querySelector("#home-link");
   var scrolled = window.scrollY > 2;
   if (scrolled) {
     navbar.classList.add("scrolled");
   } else {
     navbar.classList.remove("scrolled");
+    homeNavbar.classList.add("active");
   }
 });
 
